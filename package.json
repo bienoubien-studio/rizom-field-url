@@ -1,5 +1,5 @@
 {
-	"name": "rizom-field-url",
+	"name": "@rizom/field-url",
 	"version": "0.0.1",
 	"homepage": "https://github.com/bienoubien-studio/rizom-field-url",
 	"scripts": {
@@ -11,7 +11,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"local-pack": "npm run build && npm pack && echo \"Package created at: $(pwd)/$(npm pack | tail -1)\""
 	},
 	"files": [
 		"dist",
@@ -27,7 +28,9 @@
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js"
+			"svelte": "./dist/index.js",
+			"default": "./dist/index.js",
+			"import": "./dist/index.js"
 		}
 	},
 	"peerDependencies": {
