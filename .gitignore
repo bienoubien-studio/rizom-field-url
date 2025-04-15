@@ -28,3 +28,4 @@ db
 logs
 src/routes/(rizom)
 static
+src/app.generated.d.ts
