@@ -24,7 +24,6 @@
 		align-items: center;
 		letter-spacing: 0.02em;
 		font-size: var(--rz-text-sm);
-		margin: 0 var(--rz-fields-padding);
 		padding: var(--rz-size-1) var(--rz-size-3);
 		border: 1px solid hsl(var(--rz-ground-2) / 0.2);
 	}
