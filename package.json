@@ -1,6 +1,6 @@
 {
 	"name": "@rizom/field-url",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"homepage": "https://github.com/bienoubien-studio/rizom-field-url",
 	"scripts": {
 		"dev": "vite dev",
