@@ -18,8 +18,8 @@ importers:
         specifier: ^0.41.0
         version: 0.41.0(better-sqlite3@11.9.1)(gel@2.0.1)(kysely@0.27.6)
       rizom:
-        specifier: ^0.2.1
-        version: 0.2.1(@sveltejs/kit@2.20.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.6)(vite@6.2.5))(svelte@5.25.6)(vite@6.2.5))(better-sqlite3@11.9.1)(drizzle-kit@0.30.6)(kysely@0.27.6)(postcss@8.5.3)(sharp@0.34.0)(svelte@5.25.6)(typescript@5.8.2)(vite@6.2.5)
+        specifier: ^0.3.15
+        version: 0.3.15(@sveltejs/kit@2.20.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.6)(vite@6.2.5))(svelte@5.25.6)(vite@6.2.5))(better-sqlite3@11.9.1)(drizzle-kit@0.30.6)(kysely@0.27.6)(postcss@8.5.3)(sharp@0.34.0)(svelte@5.25.6)(vite@6.2.5)
       sharp:
         specifier: ^0.34.0
         version: 0.34.0
@@ -98,8 +98,8 @@ packages:
   '@better-fetch/fetch@1.1.18':
     resolution: {integrity: sha512-rEFOE1MYIsBmoMJtQbl32PGHHXuG2hDxvEd7rUHE0vCBoFQVSDqaVs9hkZEtHCxRoY+CljXKFCOuJ8uxqw1LcA==}
 
-  '@bien-bien/css-reset@0.1.0':
-    resolution: {integrity: sha512-4pK6VYcPyOK+1mLM4bF7kLXYtlp/vZRB1qRR1Wb1cuRWZrO4RVWShzZ8drMBi6H18TyT3hn53wKHty3LkyMj6A==}
+  '@bien-bien/css-reset@0.1.1':
+    resolution: {integrity: sha512-QS51ViM8bpEslgJHUJfaZR7QLTXinWGDcPN0kmVte5VS+iTP7W3dALn6TbDJzeW5h4LEer2xxsEmCrZDGtVKyg==}
 
   '@clack/core@0.3.5':
     resolution: {integrity: sha512-5cfhQNH+1VQ2xLQlmzXMqUoiaH0lRBq9/CLW9lTyMbuKLC3+xEK01tHVvyut++mLOn5urSHmkm6I0Lg9MaJSTQ==}
@@ -736,8 +736,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@internationalized/date@3.7.0':
-    resolution: {integrity: sha512-VJ5WS3fcVx0bejE/YHfbDKR/yawZgKqn/if+oEeLqNwBtPzVB06olkfcnojTmEMX+gTpH+FlQ69SHNitJ8/erQ==}
+  '@internationalized/date@3.8.0':
+    resolution: {integrity: sha512-J51AJ0fEL68hE4CwGPa6E0PO6JDaVLd8aln48xFCSy7CZkZc96dGEGmLs2OEEbBxcsVZtfrqkXJwI2/MSG8yKw==}
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -773,8 +773,8 @@ packages:
   '@noble/ciphers@0.6.0':
     resolution: {integrity: sha512-mIbq/R9QXk5/cTfESb1OKtyFnk7oc1Om/8onA1158K9/OZUQFDEVy55jVTato+xmp3XX6F6Qh0zz0Nc1AxAlRQ==}
 
-  '@noble/hashes@1.7.1':
-    resolution: {integrity: sha512-B8XBPsn4vT/KJAGqDzbwztd+6Yte3P4V7iafm24bxgDe/mlRuK6xmWPuCNrKt2vDafZ8MfJLlchDG/vYafQEjQ==}
+  '@noble/hashes@1.7.2':
+    resolution: {integrity: sha512-biZ0NUSxyjLLqo6KxEJ1b+C2NAx0wtDoFvCaXHGgUkeHzf3Xc1xKumFKREuT7f7DARNZ/slvYUwFG6B0f2b6hQ==}
     engines: {node: ^14.21.3 || >=16}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -971,8 +971,8 @@ packages:
       svelte: ^5.0.0
       vite: ^6.0.0
 
-  '@swc/helpers@0.5.15':
-    resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
+  '@swc/helpers@0.5.17':
+    resolution: {integrity: sha512-5IKx/Y13RsYd+sauPb2x+U/xZikHjolzfuDgTAl/Tdf3Q8rslRvC19NKDLgAJQ6wsqADk10ntlv08nPFw/gO/A==}
 
   '@tiptap/core@2.11.7':
     resolution: {integrity: sha512-zN+NFFxLsxNEL8Qioc+DL6b8+Tt2bmRbXH22Gk6F6nD30x83eaUSFlSv3wqvgyCq3I1i1NO394So+Agmayx6rQ==}
@@ -1229,11 +1229,11 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  better-auth@1.2.5:
-    resolution: {integrity: sha512-Tz2aKImkvaT7P9qHQ67Vhw/Slo6zpvE0jG7GoDQM+dd5tWuC3lP0OGjjWkNCZdToVlWB193i5nSHeZT90sFqEw==}
+  better-auth@1.2.7:
+    resolution: {integrity: sha512-2hCB263GSrgetsMUZw8vv9O1e4S4AlYJW3P4e8bX9u3Q3idv4u9BzDFCblpTLuL4YjYovghMCN0vurAsctXOAQ==}
 
-  better-call@1.0.5:
-    resolution: {integrity: sha512-rAT73GWIJ8LbSP8Y3BdJnY1hwAiQPRRmUJ4R3YVhcVGS927l3eTXG5o5TD6Bv6je6ygjdx6iVq3/BU49eGUCHg==}
+  better-call@1.0.8:
+    resolution: {integrity: sha512-/PV8JLqDRUN7JyBPbklVsS/8E4SO3pnf8hbpa8B7xrBrr+BBYpeOAxoqtnsyk/pRs35vNB4MZx8cn9dBuNlLDA==}
 
   better-sqlite3@11.9.1:
     resolution: {integrity: sha512-Ba0KR+Fzxh2jDRhdg6TSH0SJGzb8C0aBY4hR8w8madIdIzzC6Y1+kx5qR6eS1Z+Gy20h6ZU28aeyg0z1VIrShQ==}
@@ -1287,8 +1287,8 @@ packages:
     resolution: {integrity: sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==}
     engines: {node: '>=16'}
 
-  caniuse-lite@1.0.30001710:
-    resolution: {integrity: sha512-B5C0I0UmaGqHgo5FuqJ7hBd4L57A4dDD+Xi+XX1nXOoxGeDdY4Ko38qJYOyqznBVJEqON5p8P1x5zRR3+rsnxA==}
+  caniuse-lite@1.0.30001713:
+    resolution: {integrity: sha512-wCIWIg+A4Xr7NfhTuHdX+/FKh3+Op3LBbSp2N5Pfx6T/LhdQy3GTyoTg48BReaW/MyMNZAkTadsBtai3ldWK0Q==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -1405,8 +1405,8 @@ packages:
   devalue@5.1.1:
     resolution: {integrity: sha512-maua5KUiapvEwiEAe+XnlZ3Rh0GD+qI1J/nb9vrJc3muPXvcF/8gXYTWF76+5DAqHyDUtOIImEuo0YKE9mshVw==}
 
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
 
   drizzle-kit@0.30.6:
@@ -1598,8 +1598,8 @@ packages:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
     engines: {node: '>= 0.4'}
 
-  electron-to-chromium@1.5.132:
-    resolution: {integrity: sha512-QgX9EBvWGmvSRa74zqfnG7+Eno0Ak0vftBll0Pt2/z5b3bEGYL6OUXLgKPtvx73dn3dvwrlyVkjPKRRlhLYTEg==}
+  electron-to-chromium@1.5.137:
+    resolution: {integrity: sha512-/QSJaU2JyIuTbbABAo/crOs+SuAZLS+fVVS10PVrIT9hrRkmZl8Hb0xPSkKRUUWHQtYzXHpQUW3Dy5hwMzGZkA==}
 
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
@@ -2060,8 +2060,8 @@ packages:
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
 
-  nodemailer@6.10.0:
-    resolution: {integrity: sha512-SQ3wZCExjeSatLE/HBaXS5vqUOQk6GtBdIIKxiFdmm01mOQZX/POJkO3SUX1wDiYcwUOJwT23scFSC9fY2H8IA==}
+  nodemailer@6.10.1:
+    resolution: {integrity: sha512-Z+iLaBGVaSjbIzQ4pX6XV41HrooLsQ10ZWPUehGmuantvzWoDVBnmsdUcOIDM1t+yPor5pDhVlDESgOMEGxhHA==}
     engines: {node: '>=6.0.0'}
 
   normalize-range@0.1.2:
@@ -2184,8 +2184,8 @@ packages:
   prosemirror-collab@1.3.1:
     resolution: {integrity: sha512-4SnynYR9TTYaQVXd/ieUvsVV4PDMBzrq2xPUWutHivDuOshZXqQ5rGbZM84HEaXKbLdItse7weMGOUdDVcLKEQ==}
 
-  prosemirror-commands@1.7.0:
-    resolution: {integrity: sha512-6toodS4R/Aah5pdsrIwnTYPEjW70SlO5a66oo5Kk+CIrgJz3ukOoS+FYDGqvQlAX5PxoGWDX1oD++tn5X3pyRA==}
+  prosemirror-commands@1.7.1:
+    resolution: {integrity: sha512-rT7qZnQtx5c0/y/KlYaGvtG411S97UaL6gdp6RIZ23DLHanMYLyfGBV5DtSnZdthQql7W+lEVbpSfwtO8T+L2w==}
 
   prosemirror-dropcursor@1.8.1:
     resolution: {integrity: sha512-M30WJdJZLyXHi3N8vxN6Zh5O8ZBbQCz0gURTfPmTIBNQ5pxrdU7A58QkNqfa98YEjSAL1HUyyU34f6Pm5xBSGw==}
@@ -2220,8 +2220,8 @@ packages:
   prosemirror-state@1.4.3:
     resolution: {integrity: sha512-goFKORVbvPuAQaXhpbemJFRKJ2aixr+AZMGiquiqKxaucC6hlpHNZHWgz5R7dS4roHiwq9vDctE//CZ++o0W1Q==}
 
-  prosemirror-tables@1.6.4:
-    resolution: {integrity: sha512-TkDY3Gw52gRFRfRn2f4wJv5WOgAOXLJA2CQJYIJ5+kdFbfj3acR4JUW6LX2e1hiEBiUwvEhzH5a3cZ5YSztpIA==}
+  prosemirror-tables@1.7.0:
+    resolution: {integrity: sha512-dc9+u4aqT+biw3J/v7p5LyH8uqqXSAjdszfLtrCnDbpMr1F+Gsjtkdiij/1p8qM1gBOCfQeiahhk2pOO9Aa8xA==}
 
   prosemirror-trailing-node@3.0.0:
     resolution: {integrity: sha512-xiun5/3q0w5eRnGYfNlW1uU9W6x5MoFKWwq/0TIRgt09lv7Hcser2QYV8t4muXbEr+Fwo0geYn79Xs4GKywrRQ==}
@@ -2289,8 +2289,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rizom@0.2.1:
-    resolution: {integrity: sha512-fuz1nK0BNrUA4cKW2BewDys+5AypeP9A/c2dNU84UzlpmvS/MEqRinOftpn0DcREt6ksJQOJUD6erXM7ojwehA==}
+  rizom@0.3.15:
+    resolution: {integrity: sha512-ZsOG4s5jRaFtaDnJsUGr6WQobNixkTPpzz03JOkB1Xtwfl75WboLPk9TM6HObz2+L4BGsEPT9V63vhFd1TKJKw==}
     hasBin: true
     peerDependencies:
       '@sveltejs/kit': ^2.17.2
@@ -2527,14 +2527,6 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  valibot@1.0.0-beta.15:
-    resolution: {integrity: sha512-BKy8XosZkDHWmYC+cJG74LBzP++Gfntwi33pP3D3RKztz2XV9jmFWnkOi21GoqARP8wAWARwhV6eTr1JcWzjGw==}
-    peerDependencies:
-      typescript: '>=5'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
   vite@6.2.5:
     resolution: {integrity: sha512-j023J/hCAa4pRIUH6J9HemwYfjB5llR2Ps0CWeikOtdR8+pAURAk0DoJC5/mm9kd+UgdnIy7d6HE4EAvlYhPhA==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
@@ -2637,7 +2629,7 @@ snapshots:
 
   '@better-fetch/fetch@1.1.18': {}
 
-  '@bien-bien/css-reset@0.1.0': {}
+  '@bien-bien/css-reset@0.1.1': {}
 
   '@clack/core@0.3.5':
     dependencies:
@@ -3033,9 +3025,9 @@ snapshots:
   '@img/sharp-win32-x64@0.34.0':
     optional: true
 
-  '@internationalized/date@3.7.0':
+  '@internationalized/date@3.8.0':
     dependencies:
-      '@swc/helpers': 0.5.15
+      '@swc/helpers': 0.5.17
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
@@ -3066,7 +3058,7 @@ snapshots:
 
   '@noble/ciphers@0.6.0': {}
 
-  '@noble/hashes@1.7.1': {}
+  '@noble/hashes@1.7.2': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3256,7 +3248,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@swc/helpers@0.5.15':
+  '@swc/helpers@0.5.17':
     dependencies:
       tslib: 2.8.1
 
@@ -3380,7 +3372,7 @@ snapshots:
     dependencies:
       prosemirror-changeset: 2.2.1
       prosemirror-collab: 1.3.1
-      prosemirror-commands: 1.7.0
+      prosemirror-commands: 1.7.1
       prosemirror-dropcursor: 1.8.1
       prosemirror-gapcursor: 1.3.2
       prosemirror-history: 1.4.1
@@ -3392,7 +3384,7 @@ snapshots:
       prosemirror-schema-basic: 1.2.4
       prosemirror-schema-list: 1.5.1
       prosemirror-state: 1.4.3
-      prosemirror-tables: 1.6.4
+      prosemirror-tables: 1.7.0
       prosemirror-trailing-node: 3.0.0(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)
       prosemirror-transform: 1.10.3
       prosemirror-view: 1.39.1
@@ -3543,7 +3535,7 @@ snapshots:
   autoprefixer@10.4.21(postcss@8.5.3):
     dependencies:
       browserslist: 4.24.4
-      caniuse-lite: 1.0.30001710
+      caniuse-lite: 1.0.30001713
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -3556,25 +3548,22 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  better-auth@1.2.5(typescript@5.8.2):
+  better-auth@1.2.7:
     dependencies:
       '@better-auth/utils': 0.2.4
       '@better-fetch/fetch': 1.1.18
       '@noble/ciphers': 0.6.0
-      '@noble/hashes': 1.7.1
+      '@noble/hashes': 1.7.2
       '@simplewebauthn/browser': 13.1.0
       '@simplewebauthn/server': 13.1.1
-      better-call: 1.0.5
+      better-call: 1.0.8
       defu: 6.1.4
       jose: 5.10.0
       kysely: 0.27.6
       nanostores: 0.11.4
-      valibot: 1.0.0-beta.15(typescript@5.8.2)
       zod: 3.24.2
-    transitivePeerDependencies:
-      - typescript
 
-  better-call@1.0.5:
+  better-call@1.0.8:
     dependencies:
       '@better-fetch/fetch': 1.1.18
       rou3: 0.5.1
@@ -3594,7 +3583,7 @@ snapshots:
     dependencies:
       '@floating-ui/core': 1.6.9
       '@floating-ui/dom': 1.6.13
-      '@internationalized/date': 3.7.0
+      '@internationalized/date': 3.8.0
       esm-env: 1.2.2
       runed: 0.23.4(svelte@5.25.6)
       svelte: 5.25.6
@@ -3622,8 +3611,8 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001710
-      electron-to-chromium: 1.5.132
+      caniuse-lite: 1.0.30001713
+      electron-to-chromium: 1.5.137
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -3648,7 +3637,7 @@ snapshots:
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001710: {}
+  caniuse-lite@1.0.30001713: {}
 
   chalk@4.1.2:
     dependencies:
@@ -3733,7 +3722,7 @@ snapshots:
 
   devalue@5.1.1: {}
 
-  dotenv@16.4.7: {}
+  dotenv@16.5.0: {}
 
   drizzle-kit@0.30.6:
     dependencies:
@@ -3762,7 +3751,7 @@ snapshots:
       es-errors: 1.3.0
       gopd: 1.2.0
 
-  electron-to-chromium@1.5.132: {}
+  electron-to-chromium@1.5.137: {}
 
   end-of-stream@1.4.4:
     dependencies:
@@ -4249,7 +4238,7 @@ snapshots:
 
   node-releases@2.0.19: {}
 
-  nodemailer@6.10.0: {}
+  nodemailer@6.10.1: {}
 
   normalize-range@0.1.2: {}
 
@@ -4367,7 +4356,7 @@ snapshots:
     dependencies:
       prosemirror-state: 1.4.3
 
-  prosemirror-commands@1.7.0:
+  prosemirror-commands@1.7.1:
     dependencies:
       prosemirror-model: 1.25.0
       prosemirror-state: 1.4.3
@@ -4412,7 +4401,7 @@ snapshots:
   prosemirror-menu@1.2.4:
     dependencies:
       crelt: 1.0.6
-      prosemirror-commands: 1.7.0
+      prosemirror-commands: 1.7.1
       prosemirror-history: 1.4.1
       prosemirror-state: 1.4.3
 
@@ -4436,7 +4425,7 @@ snapshots:
       prosemirror-transform: 1.10.3
       prosemirror-view: 1.39.1
 
-  prosemirror-tables@1.6.4:
+  prosemirror-tables@1.7.0:
     dependencies:
       prosemirror-keymap: 1.2.2
       prosemirror-model: 1.25.0
@@ -4511,11 +4500,11 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rizom@0.2.1(@sveltejs/kit@2.20.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.6)(vite@6.2.5))(svelte@5.25.6)(vite@6.2.5))(better-sqlite3@11.9.1)(drizzle-kit@0.30.6)(kysely@0.27.6)(postcss@8.5.3)(sharp@0.34.0)(svelte@5.25.6)(typescript@5.8.2)(vite@6.2.5):
+  rizom@0.3.15(@sveltejs/kit@2.20.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.6)(vite@6.2.5))(svelte@5.25.6)(vite@6.2.5))(better-sqlite3@11.9.1)(drizzle-kit@0.30.6)(kysely@0.27.6)(postcss@8.5.3)(sharp@0.34.0)(svelte@5.25.6)(vite@6.2.5):
     dependencies:
-      '@bien-bien/css-reset': 0.1.0
+      '@bien-bien/css-reset': 0.1.1
       '@clack/prompts': 0.7.0
-      '@internationalized/date': 3.7.0
+      '@internationalized/date': 3.8.0
       '@lucide/svelte': 0.479.0(svelte@5.25.6)
       '@sveltejs/kit': 2.20.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.6)(vite@6.2.5))(svelte@5.25.6)(vite@6.2.5)
       '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
@@ -4543,7 +4532,7 @@ snapshots:
       '@tiptap/pm': 2.11.7
       '@tiptap/starter-kit': 2.11.7
       autoprefixer: 10.4.21(postcss@8.5.3)
-      better-auth: 1.2.5(typescript@5.8.2)
+      better-auth: 1.2.7
       better-sqlite3: 11.9.1
       bits-ui: 1.3.11(svelte@5.25.6)
       camelcase: 8.0.0
@@ -4554,14 +4543,14 @@ snapshots:
       dedent: 1.5.3
       deep-object-diff: 1.1.9
       deepmerge: 4.3.1
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       drizzle-kit: 0.30.6
       drizzle-orm: 0.38.4(better-sqlite3@11.9.1)(kysely@0.27.6)
       flat: 6.0.1
       js-cookie: 3.0.5
       loglevel-plugin-prefix: 0.8.4
       mode-watcher: 0.4.1(svelte@5.25.6)
-      nodemailer: 6.10.0
+      nodemailer: 6.10.1
       paneforge: 0.0.6(svelte@5.25.6)
       polka: 0.5.2
       qs: 6.14.0
@@ -4602,7 +4591,6 @@ snapshots:
       - react
       - sql.js
       - sqlite3
-      - typescript
 
   rollup@4.39.0:
     dependencies:
@@ -4897,10 +4885,6 @@ snapshots:
       punycode: 2.3.1
 
   util-deprecate@1.0.2: {}
-
-  valibot@1.0.0-beta.15(typescript@5.8.2):
-    optionalDependencies:
-      typescript: 5.8.2
 
   vite@6.2.5:
     dependencies:
