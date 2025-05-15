@@ -30,3 +30,4 @@ logs
 src/routes/(rizom)
 static
 src/app.generated.d.ts
+drizzle.config.ts
