@@ -1,14 +1,14 @@
 <script lang="ts">
 	import { Link } from '@lucide/svelte';
-	import type { DocumentFormContext } from 'rizom/panel';
-
+	import type { DocumentFormContext } from 'rizom/types';
+	
 	const { form }: { form: DocumentFormContext }= $props();
 </script>
 
-{#if form.config.url}
-	<a href={form.config.url(form.doc) || null} class="rz-comp-url" target="_blank">
+{#if form.doc.url}
+	<a href={form.doc.url} class="rz-comp-url" target="_blank">
 		<Link size="12" />
-		{form.config.url(form.doc)}
+		{form.doc.url}
 	</a>
 {/if}
 
