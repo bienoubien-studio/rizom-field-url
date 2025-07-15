@@ -2,7 +2,7 @@
 	import { Link } from '@lucide/svelte';
 	import type { DocumentFormContext } from 'rizom/types';
 	
-	const { form }: { form: DocumentFormContext }= $props();
+	const { form }: { form: DocumentFormContext<any> }= $props();
 </script>
 
 {#if form.doc.url}
@@ -13,9 +13,12 @@
 {/if}
 
 <style>
+	:root{
+		--rz-comp-url-bg: light-dark(hsl(var(--rz-gray-13)), hsl(var(--rz-gray-4)))
+	}
 	.rz-comp-url {
-		background-color: hsl(var(--rz-ground-4) / 1);
-		color: hsl(var(--rz-ground-1) / 1);
+		background-color: var(--rz-comp-url-bg);
+		color: hsl(var(--rz-color-fg) / 1);
 		border-radius: var(--rz-radius-md);
 		border: var(--rz-border);
 		display: inline-flex;
@@ -23,8 +26,7 @@
 		justify-content: flex-start;
 		align-items: center;
 		letter-spacing: 0.02em;
-		font-size: var(--rz-text-sm);
 		padding: var(--rz-size-1) var(--rz-size-3);
-		border: 1px solid hsl(var(--rz-ground-2) / 0.2);
+		border: 1px solid hsl(var(--rz-input-border-color));
 	}
 </style>
